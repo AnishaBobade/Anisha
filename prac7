@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>login page</title>
+<link rel="stylesheet" href="a.css">
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font awesome/6.4.0/css/all.min.css"
+integrity="sha512-
+iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtA
+c9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="center">
+<form class="form" action="post">
+<h1 class="h1"><i class="fa-brands fa-instagram"></i>Instagram Login</h1>
+<div>
+<label for="username">username</label>
+<input type="text">
+</div>
+<br>
+<div>
+<label for="password">password</label>
+<input type="password">
+</div>
+<br>
+<div>Forgot password?</div><br>
+<input class="pass" type="submit" value="Login">
+<br><br>
+<div class="sing-up">
+not a member?<a href="https://in.linkedin.com/?src=gopa&trk=sem ga_campid.14650114788_asid.151761418307_crid.657403558721_kw.linkedin+l
+ogin_d.c_tid
+.kwd 12704335873_n.g_mt.e_geo.1007786&mcid=6844056167778418689&cid=&gclid=Cjw
+KCAj
+w1YCkBhAOEiwA5aN4AXrQcPVa3ashl5vQW0C3o8PxAQa
+HIujxVCu6lF2Jc StnQKhqpaTsRoCZoYQAvD_BwE&gclsrc=aw.ds&original_referer=https%
+3A%2F%2Fww
+w.google.com%2F">sing-up</a>
+</div>
+</form>
+</div>
+</body>
+<html>
+
+
+body{
+margin: 0;
+padding: 0;
+background: linear-gradient(#e66465, #9198e5);
+height: 100vh;
+font-family: 'Arial';
+}
+.center{
+position: absolute;
+top: 20%;
+left: 35%;
+width: 400px;
+background-color: white;
+border-radius: 10px;
+border: #9198e5;
+height: 390px;
+width: 380px;
+}
+.h1{
+text-align: center;
+padding: 20px;
+border-bottom: 2px solid silver;
+}
+.form{
+padding: 0 40px;
+box-sizing: border-box;
+}
+.pass{
+width: 100%;
+height: 45px;
+background: #2691d9;
+border-radius: 20px;
+font-size: 18px;
+color: #e9f4fb;
+}
+.fa{
+colour: black;
+}
